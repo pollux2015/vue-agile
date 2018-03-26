@@ -452,6 +452,7 @@
                 } else {
                     this.currentSlide = n
                 }
+                this.$emit('slidechange', this.currentSlide)
             },
 
             nextSlide () {
